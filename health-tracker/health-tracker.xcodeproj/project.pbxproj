@@ -10,6 +10,16 @@
 		B1C69D79288DA9CE002896BB /* HTMath.docc in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D78288DA9CE002896BB /* HTMath.docc */; };
 		B1C69D7F288DA9CF002896BB /* HTMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C69D75288DA9CE002896BB /* HTMath.framework */; };
 		B1C69D84288DA9CF002896BB /* HTMBasalMetabilicRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D83288DA9CF002896BB /* HTMBasalMetabilicRateTests.swift */; };
+		B1C69D8D288DB8C0002896BB /* HTMBasalMetabilicRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D8C288DB8C0002896BB /* HTMBasalMetabilicRate.swift */; };
+		B1C69D8F288DB8D1002896BB /* HTMBasalMetabilicRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D8E288DB8D1002896BB /* HTMBasalMetabilicRateModel.swift */; };
+		B1C69D91288DB8FC002896BB /* HTGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D90288DB8FC002896BB /* HTGender.swift */; };
+		B1C69D95288DC066002896BB /* HTMDailySpendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D94288DC066002896BB /* HTMDailySpendTests.swift */; };
+		B1C69D97288DC8DE002896BB /* HTMPeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D96288DC8DE002896BB /* HTMPeopleModel.swift */; };
+		B1C69D9E288DCD28002896BB /* HTMDailySpend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D9D288DCD28002896BB /* HTMDailySpend.swift */; };
+		B1C69DA0288DCD39002896BB /* HTMDailySpendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D9F288DCD39002896BB /* HTMDailySpendModel.swift */; };
+		B1C69DA2288DCD46002896BB /* HTActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DA1288DCD46002896BB /* HTActivity.swift */; };
+		B1C69DA5288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DA4288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift */; };
+		B1C69DA7288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DA6288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,16 @@
 		B1C69D78288DA9CE002896BB /* HTMath.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HTMath.docc; sourceTree = "<group>"; };
 		B1C69D7E288DA9CF002896BB /* HTMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C69D83288DA9CF002896BB /* HTMBasalMetabilicRateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBasalMetabilicRateTests.swift; sourceTree = "<group>"; };
+		B1C69D8C288DB8C0002896BB /* HTMBasalMetabilicRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBasalMetabilicRate.swift; sourceTree = "<group>"; };
+		B1C69D8E288DB8D1002896BB /* HTMBasalMetabilicRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBasalMetabilicRateModel.swift; sourceTree = "<group>"; };
+		B1C69D90288DB8FC002896BB /* HTGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTGender.swift; sourceTree = "<group>"; };
+		B1C69D94288DC066002896BB /* HTMDailySpendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMDailySpendTests.swift; sourceTree = "<group>"; };
+		B1C69D96288DC8DE002896BB /* HTMPeopleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMPeopleModel.swift; sourceTree = "<group>"; };
+		B1C69D9D288DCD28002896BB /* HTMDailySpend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMDailySpend.swift; sourceTree = "<group>"; };
+		B1C69D9F288DCD39002896BB /* HTMDailySpendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMDailySpendModel.swift; sourceTree = "<group>"; };
+		B1C69DA1288DCD46002896BB /* HTActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTActivity.swift; sourceTree = "<group>"; };
+		B1C69DA4288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBasalMetabilicRateSpy.swift; sourceTree = "<group>"; };
+		B1C69DA6288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBasalMetabilicRateStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +89,7 @@
 		B1C69D76288DA9CE002896BB /* HTMath */ = {
 			isa = PBXGroup;
 			children = (
+				B1C69D9C288DCD13002896BB /* Features */,
 				B1C69D78288DA9CE002896BB /* HTMath.docc */,
 			);
 			path = HTMath;
@@ -77,9 +98,74 @@
 		B1C69D82288DA9CF002896BB /* HTMathTests */ = {
 			isa = PBXGroup;
 			children = (
-				B1C69D83288DA9CF002896BB /* HTMBasalMetabilicRateTests.swift */,
+				B1C69D99288DCCF9002896BB /* Feature */,
+				B1C69D98288DCCF4002896BB /* TestDoubles */,
 			);
 			path = HTMathTests;
+			sourceTree = "<group>";
+		};
+		B1C69D92288DB901002896BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1C69D8E288DB8D1002896BB /* HTMBasalMetabilicRateModel.swift */,
+				B1C69D90288DB8FC002896BB /* HTGender.swift */,
+				B1C69D96288DC8DE002896BB /* HTMPeopleModel.swift */,
+				B1C69D9F288DCD39002896BB /* HTMDailySpendModel.swift */,
+				B1C69DA1288DCD46002896BB /* HTActivity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1C69D93288DB915002896BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B1C69D8C288DB8C0002896BB /* HTMBasalMetabilicRate.swift */,
+				B1C69D9D288DCD28002896BB /* HTMDailySpend.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B1C69D98288DCCF4002896BB /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				B1C69DA3288DCD97002896BB /* HTMBasalMetabilicRate */,
+			);
+			path = TestDoubles;
+			sourceTree = "<group>";
+		};
+		B1C69D99288DCCF9002896BB /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				B1C69D9A288DCCFE002896BB /* Classes */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		B1C69D9A288DCCFE002896BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B1C69D83288DA9CF002896BB /* HTMBasalMetabilicRateTests.swift */,
+				B1C69D94288DC066002896BB /* HTMDailySpendTests.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B1C69D9C288DCD13002896BB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B1C69D93288DB915002896BB /* Classes */,
+				B1C69D92288DB901002896BB /* Model */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B1C69DA3288DCD97002896BB /* HTMBasalMetabilicRate */ = {
+			isa = PBXGroup;
+			children = (
+				B1C69DA4288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift */,
+				B1C69DA6288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift */,
+			);
+			path = HTMBasalMetabilicRate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C69D91288DB8FC002896BB /* HTGender.swift in Sources */,
+				B1C69D8D288DB8C0002896BB /* HTMBasalMetabilicRate.swift in Sources */,
+				B1C69D9E288DCD28002896BB /* HTMDailySpend.swift in Sources */,
+				B1C69D97288DC8DE002896BB /* HTMPeopleModel.swift in Sources */,
+				B1C69DA2288DCD46002896BB /* HTActivity.swift in Sources */,
+				B1C69DA0288DCD39002896BB /* HTMDailySpendModel.swift in Sources */,
 				B1C69D79288DA9CE002896BB /* HTMath.docc in Sources */,
+				B1C69D8F288DB8D1002896BB /* HTMBasalMetabilicRateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C69D95288DC066002896BB /* HTMDailySpendTests.swift in Sources */,
 				B1C69D84288DA9CF002896BB /* HTMBasalMetabilicRateTests.swift in Sources */,
+				B1C69DA7288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift in Sources */,
+				B1C69DA5288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +485,7 @@
 		B1C69D8A288DA9CF002896BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y487CY958A;
@@ -404,6 +501,7 @@
 		B1C69D8B288DA9CF002896BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y487CY958A;
