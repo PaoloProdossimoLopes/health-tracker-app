@@ -1,4 +1,4 @@
-protocol HTMBasalMetabilicRateProtocol {
+protocol HTMBasalMetabilicRateProtocol: AnyObject {
     func calculate(model: HTMBasalMetabilicRateModel) -> Double?
 }
 

@@ -65,6 +65,12 @@ private extension HTMDailySpendTests {
     ) -> Double? {
         let sut = HTMDailySpend(basal: basal)
         let model = makeSpendModel(activity: activity)
+        
+        addTeardownBlock { [weak basal, weak sut] in
+            XCTAssertNil(sut)
+            XCTAssertNil(basal)
+        }
+        
         return sut.calculate(model: model)
     }
     

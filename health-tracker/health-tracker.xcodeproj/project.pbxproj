@@ -20,6 +20,9 @@
 		B1C69DA2288DCD46002896BB /* HTActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DA1288DCD46002896BB /* HTActivity.swift */; };
 		B1C69DA5288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DA4288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift */; };
 		B1C69DA7288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DA6288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift */; };
+		B1C69DA9288DE149002896BB /* HTMBodyMassIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DA8288DE149002896BB /* HTMBodyMassIndexTests.swift */; };
+		B1C69DAB288DF15E002896BB /* HTMBMIStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DAA288DF15E002896BB /* HTMBMIStage.swift */; };
+		B1C69DAD288DF170002896BB /* HTMBodyMassIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69DAC288DF170002896BB /* HTMBodyMassIndex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B1C69DA1288DCD46002896BB /* HTActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTActivity.swift; sourceTree = "<group>"; };
 		B1C69DA4288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBasalMetabilicRateSpy.swift; sourceTree = "<group>"; };
 		B1C69DA6288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBasalMetabilicRateStub.swift; sourceTree = "<group>"; };
+		B1C69DA8288DE149002896BB /* HTMBodyMassIndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBodyMassIndexTests.swift; sourceTree = "<group>"; };
+		B1C69DAA288DF15E002896BB /* HTMBMIStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBMIStage.swift; sourceTree = "<group>"; };
+		B1C69DAC288DF170002896BB /* HTMBodyMassIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMBodyMassIndex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 				B1C69D96288DC8DE002896BB /* HTMPeopleModel.swift */,
 				B1C69D9F288DCD39002896BB /* HTMDailySpendModel.swift */,
 				B1C69DA1288DCD46002896BB /* HTActivity.swift */,
+				B1C69DAA288DF15E002896BB /* HTMBMIStage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,6 +128,7 @@
 			children = (
 				B1C69D8C288DB8C0002896BB /* HTMBasalMetabilicRate.swift */,
 				B1C69D9D288DCD28002896BB /* HTMDailySpend.swift */,
+				B1C69DAC288DF170002896BB /* HTMBodyMassIndex.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 			children = (
 				B1C69D83288DA9CF002896BB /* HTMBasalMetabilicRateTests.swift */,
 				B1C69D94288DC066002896BB /* HTMDailySpendTests.swift */,
+				B1C69DA8288DE149002896BB /* HTMBodyMassIndexTests.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -282,7 +291,9 @@
 				B1C69D97288DC8DE002896BB /* HTMPeopleModel.swift in Sources */,
 				B1C69DA2288DCD46002896BB /* HTActivity.swift in Sources */,
 				B1C69DA0288DCD39002896BB /* HTMDailySpendModel.swift in Sources */,
+				B1C69DAD288DF170002896BB /* HTMBodyMassIndex.swift in Sources */,
 				B1C69D79288DA9CE002896BB /* HTMath.docc in Sources */,
+				B1C69DAB288DF15E002896BB /* HTMBMIStage.swift in Sources */,
 				B1C69D8F288DB8D1002896BB /* HTMBasalMetabilicRateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +304,7 @@
 			files = (
 				B1C69D95288DC066002896BB /* HTMDailySpendTests.swift in Sources */,
 				B1C69D84288DA9CF002896BB /* HTMBasalMetabilicRateTests.swift in Sources */,
+				B1C69DA9288DE149002896BB /* HTMBodyMassIndexTests.swift in Sources */,
 				B1C69DA7288DCDB6002896BB /* HTMBasalMetabilicRateStub.swift in Sources */,
 				B1C69DA5288DCD9D002896BB /* HTMBasalMetabilicRateSpy.swift in Sources */,
 			);

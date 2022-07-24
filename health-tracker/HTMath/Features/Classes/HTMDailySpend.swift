@@ -1,6 +1,6 @@
 final class HTMDailySpend {
     
-    let basal: HTMBasalMetabilicRateProtocol
+    var basal: HTMBasalMetabilicRateProtocol
     
     init(basal: HTMBasalMetabilicRateProtocol = HTMBasalMetabilicRate()) {
         self.basal = basal
